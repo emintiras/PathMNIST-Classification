@@ -1,0 +1,6 @@
+grad_cam==1.5.4
+matplotlib==3.7.5
+medmnist==3.0.2
+numpy==1.23.5
+torch==2.3.1
+torchvision==0.18.1

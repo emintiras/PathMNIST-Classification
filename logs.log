@@ -1,0 +1,27 @@
+2025-03-11 11:47:59,856 - __main__ - INFO - Using device: cuda
+2025-03-11 11:47:59,856 - src.download_data - INFO - Downloading PathMNIST data...
+2025-03-11 11:48:01,499 - src.download_data - INFO - PathMNIST data successfully downloaded with batch size 128.
+2025-03-11 11:48:01,500 - src.download_data - INFO - PathMNIST Train size: 89996, Validation size: 10004, Test size: 7180
+2025-03-11 11:48:01,500 - __main__ - INFO - Data loaders initialized.
+2025-03-11 11:48:01,907 - __main__ - INFO - Successfully loaded pretrained model from saved_model/resnet50_pathmnist.pth
+2025-03-11 11:48:15,552 - src.train - INFO - Accuracy: 88.97%
+2025-03-11 11:48:15,552 - __main__ - INFO - Final test accuracy: 88.97%
+2025-03-11 11:48:21,955 - __main__ - INFO - GradCAM visualizations generated
+2025-03-11 11:54:34,129 - __main__ - INFO - Using device: cuda
+2025-03-11 11:54:34,129 - src.download_data - INFO - Downloading PathMNIST data...
+2025-03-11 11:54:35,762 - src.download_data - INFO - PathMNIST data successfully downloaded with batch size 128.
+2025-03-11 11:54:35,762 - src.download_data - INFO - PathMNIST Train size: 89996, Validation size: 10004, Test size: 7180
+2025-03-11 11:54:35,762 - __main__ - INFO - Data loaders initialized.
+2025-03-11 11:54:36,165 - __main__ - INFO - Successfully loaded pretrained model from saved_model/resnet50_pathmnist.pth
+2025-03-11 11:54:50,661 - src.train - INFO - Accuracy: 88.97%
+2025-03-11 11:54:50,662 - __main__ - INFO - Final test accuracy: 88.97%
+2025-03-11 11:55:02,822 - __main__ - INFO - GradCAM visualizations generated
+2025-03-11 11:58:26,722 - __main__ - INFO - Using device: cuda
+2025-03-11 11:58:26,722 - src.download_data - INFO - Downloading PathMNIST data...
+2025-03-11 11:58:28,368 - src.download_data - INFO - PathMNIST data successfully downloaded with batch size 128.
+2025-03-11 11:58:28,368 - src.download_data - INFO - PathMNIST Train size: 89996, Validation size: 10004, Test size: 7180
+2025-03-11 11:58:28,369 - __main__ - INFO - Data loaders initialized.
+2025-03-11 11:58:28,755 - __main__ - INFO - Successfully loaded pretrained model from saved_model/resnet50_pathmnist.pth
+2025-03-11 11:58:42,318 - src.train - INFO - Accuracy: 88.97%
+2025-03-11 11:58:42,318 - __main__ - INFO - Final test accuracy: 88.97%
+2025-03-11 11:59:13,736 - __main__ - INFO - GradCAM visualizations generated
