@@ -54,7 +54,7 @@ This project implements GradCAM to visualize which parts of an image the model i
 
 ## 📈 Results
 
-The model achieves strong performance on the PathMNIST dataset. Sample GradCAM visualizations show the model correctly focuses on relevant histological features for classification.
+The model achieves strong performance on the PathMNIST dataset, achieving an accuracy of 88.97% using transfer learning with ResNet-50. GradCAM visualizations show the model correctly focuses on relevant histological features for classification.
 
 ![ResNet50 with GradCam](gradcam.png)
 
