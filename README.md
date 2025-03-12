@@ -18,7 +18,7 @@ torchvision
 numpy
 matplotlib
 medmnist
-pytorch-grad-cam
+grad-cam
 ```
 
 ## 📂 Project Structure
