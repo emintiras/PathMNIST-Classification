@@ -2,7 +2,7 @@
 
 This project implements deep learning models for the classification of PathMNIST dataset with explainable AI techniques to visualize what features the model focuses on when making predictions.
 
-## 📋 Overview
+## Overview
 
 The [PathMNIST](https://medmnist.com/) dataset is part of the MedMNIST collection, containing colorectal cancer histology images with 9 classes. This project:
 
@@ -10,7 +10,7 @@ The [PathMNIST](https://medmnist.com/) dataset is part of the MedMNIST collectio
 2. Trains the models on PathMNIST data
 3. Applies GradCAM to visualize model decision-making
 
-## 🛠️ Requirements
+## Requirements
 
 ```
 torch
@@ -21,7 +21,7 @@ medmnist
 grad-cam
 ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
@@ -36,7 +36,7 @@ grad-cam
 └── logs.log                 # Log file
 ```
 
-## 🚀 Usage
+## Usage
 
 1. Clone the repository
 2. Install the required packages:
@@ -48,17 +48,17 @@ grad-cam
    python main.py
    ```
 
-## 🔍 Explainable AI
+## Explainable AI
 
 This project implements GradCAM to visualize which parts of an image the model is focusing on for classification. The visualization highlights the regions most influential for the model's prediction.
 
-## 📈 Results
+## Results
 
 The model achieves strong performance on the PathMNIST dataset, achieving an accuracy of 88.97% using transfer learning with ResNet-50. GradCAM visualizations show the model correctly focuses on relevant histological features for classification.
 
 ![ResNet50 with GradCam](gradcam.png)
 
-## 📚 References
+## References
 
 - [MedMNIST Dataset](https://medmnist.com/)
 - [GradCAM: Visual Explanations from Deep Networks](https://arxiv.org/abs/1610.02391)
